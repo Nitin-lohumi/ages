@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="js.css">
+</head>
+<body>
+       <div class="container">
+        <form>
+            <div class="base">
+                <div class="enter ">
+                    <h4> AGE CLACULATOR </h4>
+
+                    <p id="show">Enter your date of birth </p>
+
+             <div id="age"></div>   
+            </div>
+                
+                <div class="block">
+                    <p class="title"> Date </p>
+                    <input type="text" name="date" id="date" placeholder="dd" autocomplete="off" 
+                    minlength="2" maxlength="2" required>
+                </div>
+                    <div class="block">
+                        <p class="title"> Month </p>
+                        <input type="text" name="Month" id="month" placeholder="mm" autocomplete="off"
+                        minlength="2" maxlength="2" required>
+                    </div>
+                        <div class="block">
+                            <p class="title"> Year </p>
+                            <input type="text" name="year" id="year" placeholder="yy" autocomplete="off"
+                            minlength="4" maxlength="4" required>
+                        </div>
+            </div>
+            <div class="base">
+                <div class="enter">
+                    <input type="button"  value="submit" name="submit" onclick="age()" />
+                </div>
+               
+            </div>
+        </form>
+       </div>
+</body>
+
+<script src="nitin.js"></script>
+</html>
